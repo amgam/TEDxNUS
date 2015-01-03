@@ -321,14 +321,7 @@ i {
 }
 
 /* TESTIMONIAL SECTION */
-.testimonials {
-    background-image: url(/assets/img/testimonials.jpg);
-	background-position: center;
-}
 
-.testimonials .container {
-	width: 100%
-}
 
 .section-bg-grey {
 	background-color: #f2f2f2;
@@ -463,4 +456,20 @@ i {
 
 .custom-icon:hover{
     color:white;
+}
+
+/* Separators - Parallax Section */
+.sep {
+	background-attachment: fixed;
+	background-position: 50% 0;
+	background-repeat: no-repeat;
+	height: 550px;
+	position: relative;
+}
+.s01 {
+	background-image: url(../img/bulb.jpg);
+}
+
+.s02 {
+	background-image: url(../img/test.jpg);
 }
