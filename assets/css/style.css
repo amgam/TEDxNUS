@@ -288,8 +288,8 @@ i {
 /* HEADER SECTION */
 #h {
 	background: url(../img/header.jpg) no-repeat center top;
-	padding-top: 230px;
-    padding-right: 500px;
+	padding-top: 270px;
+    padding-left: 20px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
@@ -316,7 +316,9 @@ i {
 
 #h h2 {
 	color: white;
+    font-size: 45px;
 	font-weight: 100;
+    letter-spacing: 1px;
 }
 
 #h hr {
