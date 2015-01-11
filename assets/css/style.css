@@ -176,8 +176,9 @@ a:focus {
     .navbar-custom.top-nav-collapse {
         border-bottom: 1px solid rgba(255,255,255,.3);
     }
-
 }
+
+
 
 
 /* Bootstrap Modification */
@@ -293,7 +294,8 @@ i {
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 700px;
+    
+    min-height: 700px;
 	width: 100%;f
 	
     -webkit-background-size: 100%;
@@ -307,6 +309,32 @@ i {
     background-size: cover;
 }
 
+@media(max-width:766px) {
+    #h {
+    background: url(../img/header.jpg) no-repeat center top;
+	padding-top: 170px;
+    padding-left: 10px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+    
+    min-height: 400px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
+
+}
+
+
 #h h1 {
 	color: white;
 	font-size: 75px;
@@ -314,12 +342,15 @@ i {
 	letter-spacing: 1px;
 }
 
-#h h2 {
-	color: white;
+
+    
+ #h h2 {
+     color: white;
     font-size: 50px;
-	font-weight: 100;
+    font-weight: 100;
     letter-spacing: 1px;
 }
+
 
 #h hr {
 	border: 1px white solid;
@@ -532,6 +563,17 @@ i {
 .custom-icon:hover{
     color:white;
 }
+
+.navcon {
+    font-size: 32px;
+  color : #d3d3d3;
+}
+
+.navcon:hover{
+    color:white;
+}
+
+
 
 /* Separators - Parallax Section */
 .sep {
