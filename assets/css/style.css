@@ -590,3 +590,7 @@ i {
 .s02 {
 	background-image: url(../img/test.jpg);
 }
+
+#address {
+    line-height: 20px;
+}
