@@ -594,3 +594,13 @@ i {
 #address {
     line-height: 20px;
 }
+
+#TED {
+    color : #e62b1e;
+}
+
+#video {
+    width: 854px ;
+  margin-left: auto ;
+  margin-right: auto ;
+}
