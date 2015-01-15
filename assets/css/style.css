@@ -605,3 +605,12 @@ i {
   margin-left: auto ;
   margin-right: auto ;
 }
+
+
+
+#TEDxNUS {
+    max-height: 100px;
+    max-width: 150px;
+    padding-top: 10px;
+    font-size: 32px; 
+}
